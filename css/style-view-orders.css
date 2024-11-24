@@ -1,0 +1,70 @@
+.orders-container, .order-details-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+    font-size: 2rem;
+    color: #6b4e16;
+    margin-bottom: 1rem;
+}
+
+.orders-table, .order-items-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.orders-table th, .orders-table td, .order-items-table th, .order-items-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.orders-table th, .order-items-table th {
+    background-color: #6b4e16;
+    color: white;
+}
+
+.orders-table td, .order-items-table td {
+    background-color: #fff;
+}
+
+.btn {
+    background-color: #6b4e16;
+    color: white;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #4c3710;
+}
+
+.back-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.back-btn {
+    background-color: #6b4e16;
+    color: white;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #4c3710;
+}
